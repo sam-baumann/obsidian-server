@@ -9,6 +9,7 @@ Intended for use with the Obsidian [remotely save](https://github.com/remotely-s
 sudo htpasswd -c ./.htpasswd <username>
 ```
 for each user you want to create. You can add more users later by omitting the `-c` flag.
+
 4. Run `docker-compose up -d` to start the server
 
 ## Todos
