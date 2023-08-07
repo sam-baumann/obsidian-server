@@ -1,0 +1,11 @@
+version: '3'
+services:
+  webdav:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./notes:/usr/local/apache2/htdocs
+    environment:
+      - APACHE_RUN_USER=www-data
+      - APACHE_RUN_GROUP=www-data
