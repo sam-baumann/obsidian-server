@@ -1,5 +1,5 @@
 # Docker configuration for webDAV server
-Intended for use with the Obsidian [[https://github.com/remotely-save/remotely-save]remotely-save] plugin, but this configuration should work with any webDAV client.
+Intended for use with the Obsidian [remotely save](https://github.com/remotely-save/remotely-save) plugin, but this configuration should work with any webDAV client.
 
 ## Usage
 1. Clone this repository
