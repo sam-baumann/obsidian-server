@@ -13,4 +13,4 @@ for each user you want to create. You can add more users later by omitting the `
 4. Run `docker-compose up -d` to start the server
 
 ## Todos
-- [ ] Add SSL support
+- [x] Add SSL support
