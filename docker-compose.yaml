@@ -4,8 +4,10 @@ services:
     build: .
     ports:
       - "80:80"
+      - "443:443"
     volumes:
       - ./notes:/usr/local/apache2/htdocs
+      - ./certs:/etc/ssl/certs
     environment:
       - APACHE_RUN_USER=www-data
       - APACHE_RUN_GROUP=www-data
